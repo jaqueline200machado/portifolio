@@ -1,10 +1,16 @@
-body {
-    font-family: 'Alkalami'
-    color#090909;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #090909;
 }
 
-h1, h2, h3 {
-    font-family: Geneva, Tahoma, sans-serif;
+
+h1 h2 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1e1818;
+}
+
+nav{
+    font-family:'Gemunu Libre', sem serifa;
     color: #1e1818;
 }
 
@@ -22,7 +28,7 @@ h1, h2, h3 {
 nav {
     display: flex;
     align-items: center;
-    background-color: #e0e04f;
+    background-color: #ad4fe0;
 }
 
 nav > a {
@@ -62,9 +68,10 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #ffffff;
+    color: #db0e0e;
     text-align: center;
     padding: 270px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #sobre {
@@ -85,6 +92,23 @@ color: #000;
 }
 #sobre .botao {
     color: aquamarine
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: initial;
+    justify-content: initial;
+    flex-direction: initial;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 80%;
+    height: 250px;
 }
 
 #video {
@@ -111,11 +135,12 @@ form > input[type="email"] {
     margin: .5rem;
 }
 body {
-background-image: url("paz.jpg");
+    background-image: none;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 input {
     border-radius: 0cm;
     background: hsl(0, 0%, 93%);
